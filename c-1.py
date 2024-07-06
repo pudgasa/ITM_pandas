@@ -1,0 +1,1 @@
+import pandas as pdimport pathlibfrom pathlib import Pathwork_path = pathlib.Path.cwd()data_path = Path(work_path, 'datasets', 'bikes.scv')data = pd.read_csv(data_path)print(data['Rachel1'].sum())
